@@ -1,0 +1,12 @@
+.listItem {
+  background: 1px tomato;
+  border: 1px solid darkseagreen;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+div#country {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
